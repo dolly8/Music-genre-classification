@@ -10,12 +10,12 @@ The dataset is approximately 1.2GB, each genre has 100 audio clips in .wav forma
 
 # Required Libraries 
 The libraries required for this project are:&nbsp;
-librosa==0.7.1&nbsp;
-sklearn==0.21.3&nbsp;
-matplotlib==3.1.1&nbsp;
-keras==2.3.1&nbsp;
-pandas==0.25.3&nbsp;
-seaborn==0.9.0&nbsp;
+librosa==0.7.1&nbsp; </br>
+sklearn==0.21.3&nbsp; </br>
+matplotlib==3.1.1&nbsp; </br>
+keras==2.3.1&nbsp; </br>
+pandas==0.25.3&nbsp; </br>
+seaborn==0.9.0&nbsp; </br>
 
 To install all files in the requirements.txt file:
 cd to the directory where requirements.txt is located.
