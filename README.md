@@ -1,6 +1,7 @@
-# Genre_classification
+## Genre_classification
 
-This project is based on song Genre Classification using CNN.
+# Introduction
+The main aim of this project is to classify music according to their genres.
 It contains 10 music genres. 
 The genres are - blues, classical, country, disco, pop, jazz, reggae, rock, metal
 
@@ -22,5 +23,15 @@ cd to the directory where requirements.txt is located.</br>
 activate your virtualenv.</br>
 run: pip install -r requirements.txt
   in your shell.</br>
+Note: Librosa is used for audio data analysis.
+  
 
 
+# Preprocessing the dataset
+First the audio data is converted into spectrogram. Then the features of music is extracted such as MFCCs, Spectral centroid, spectral rolloff, chroma features, zero coefficient and rmse. </br>
+This features are then appended into csv file with the labels/ genres list and the file name.
+
+This csv file is analyzed using pandas, then we split the train and test data into 80% and 20% respectively.
+
+# Creating the CNN model
+At last, the CNN model is created. 
