@@ -9,18 +9,15 @@ I gathered the dataset from GTZAN genre collection, link for the same is: http:/
 The dataset is approximately 1.2GB, each genre has 100 audio clips in .wav format, so the total is 10 x 100 = 1000 audio set.
 
 # Required Libraries 
-The libraries required for this project are:
-librosa==0.7.1
-sklearn==0.21.3
-matplotlib==3.1.1
-keras==2.3.1
-pandas==0.25.3
-seaborn==0.9.0
+The libraries required for this project are:&nbsp;
+librosa==0.7.1&nbsp;
+sklearn==0.21.3&nbsp;
+matplotlib==3.1.1&nbsp;
+keras==2.3.1&nbsp;
+pandas==0.25.3&nbsp;
+seaborn==0.9.0&nbsp;
 
 To install all files in the requirements.txt file:
-
 cd to the directory where requirements.txt is located.
-
 activate your virtualenv.
-
 run: pip install -r requirements.txt in your shell.
