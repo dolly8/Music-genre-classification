@@ -20,4 +20,5 @@ seaborn==0.9.0&nbsp; </br>
 To install all files in the requirements.txt file:</br>
 cd to the directory where requirements.txt is located.</br>
 activate your virtualenv.</br>
-run: pip install -r <b>requirements.txt<b> in your shell.</br>
+run: pip install -r <b>requirements.txt <b>
+  in your shell.</br>
