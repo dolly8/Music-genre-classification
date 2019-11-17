@@ -6,7 +6,7 @@ The genres are - blues, classical, country, disco, pop, jazz, reggae, rock, meta
 
 # Dataset
 I gathered the dataset from GTZAN genre collection, link for the same is: http://marsyas.info/downloads/datasets.html
-The dataset is approximately 1.2GB, each genre has 100 audio clips in .wav format, so the total is 10 x 100 = 1000 audio set.
+The dataset is approximately 1.2GB, each genre has 100 audio clips in .wav format, so the total is 10 x 100 i.e. 1000 audio set.
 
 # Required Libraries 
 The libraries required for this project are: </br>
@@ -20,5 +20,7 @@ seaborn==0.9.0&nbsp; </br>
 To install all files in the requirements.txt file:</br>
 cd to the directory where requirements.txt is located.</br>
 activate your virtualenv.</br>
-run: pip install -r <b>requirements.txt <b>
+run: pip install -r requirements.txt
   in your shell.</br>
+
+# Preprocessing the dataset
