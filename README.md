@@ -30,7 +30,7 @@ Note: Librosa is used for audio data analysis.
 ## Preprocessing the dataset
 preprocess.ipynb</br>
 First the audio data is converted into spectrogram. Then the features of music is extracted such as MFCCs, Spectral centroid, spectral rolloff, chroma features, zero coefficient and rmse. </br>
-This features are then appended into csv file with the labels/ genres list and the file name.
+These features are then appended into csv file with the labels/ genres list and the file name.
 
 This csv file is analyzed using pandas, then we split the train and test data into 80% and 20% respectively.
 
